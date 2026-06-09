@@ -2,6 +2,8 @@
 
 This repository contains a full-stack, AI-powered customer support chat widget built for the Spur Founding Full-Stack Engineer take-home assignment.
 
+> **Note on Live Deployment**: The backend is deployed on Render's free tier. If no requests are received for 15 minutes, the server will spin down. As a result, the **very first request** may take some additional time to wake the server up. Please be patient!
+
 ## 🚀 Quickstart: How to Run Locally
 
 ### 1. Prerequisites
