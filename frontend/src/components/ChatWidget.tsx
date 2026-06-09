@@ -37,10 +37,10 @@ export function ChatWidget() {
   };
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end">
+    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 flex flex-col items-end sm:items-end">
       {isOpen && (
         <div
-          className="w-[380px] sm:w-[420px] h-[540px] mb-4 flex flex-col overflow-hidden animate-slide-up rounded-2xl"
+          className="w-[calc(100vw-2rem)] sm:w-[420px] h-[calc(100vh-8rem)] sm:h-[540px] max-h-[800px] mb-4 flex flex-col overflow-hidden animate-slide-up rounded-2xl shadow-2xl"
           style={{
             background: 'hsl(230, 25%, 11%)',
             border: '1px solid rgba(255, 255, 255, 0.08)',
